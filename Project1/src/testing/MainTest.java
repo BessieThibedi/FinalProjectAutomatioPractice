@@ -1,5 +1,7 @@
 package testing;
 
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -9,6 +11,8 @@ import org.testng.annotations.Test;
 public class MainTest {
 	WebDriver driver;
 	AddToCartPage page;
+	 
+	
 	
   @BeforeTest
   public void OpenBrowser() {
@@ -19,22 +23,31 @@ public class MainTest {
 	  driver.manage().window().maximize();
 	  
 	  POM001 login = new POM001(driver);
-	  
 	  login.setEmailtxt("this1@this1.com");
 	  login.setPassword("this1this");
 	  login.setSubmit();
-	  login.setWomensLink();
 	  
-	  page=new AddToCartPage(driver);
+	  login.setWomensLink();
+	 
   }
+  
+
   
   @Test
   public void ValidateAddtoCart() throws Exception {
 	  
 	  
+	  page=new AddToCartPage(driver);
+	  
 	  Assert.assertTrue(page.validateAddToCart(driver));
 	  
-	  driver.close();
+	  
+	  
+	  
+	  
+	  //driver.close();
 	  
   }
+  
+  
 }

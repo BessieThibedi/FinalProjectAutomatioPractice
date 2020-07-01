@@ -43,10 +43,10 @@ public class AddToCart_POM {
 		String observedText = element.getText();
 		if(observedText.equals(Expectedtext)) {
 			
-			ExcelUtils.setCellData(observedText, 1, 0);
-			ExcelUtils.setCellData("Pass", 2, 1);
-			//System.out.println(observedText);
-			//System.out.println("Pass");
+			//ExcelUtils.setCellData(observedText, 1, 0);
+			//ExcelUtils.setCellData("Pass", 2, 1);
+			System.out.println(observedText);
+			System.out.println("Pass");
 			return true;
 		}
 		return false;
