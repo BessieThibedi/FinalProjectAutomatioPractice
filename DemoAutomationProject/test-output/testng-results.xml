@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="385495" started-at="2020-07-09T20:42:06 CAT" finished-at="2020-07-09T20:48:32 CAT">
+    <groups>
+    </groups>
+    <test name="TestClass" duration-ms="385495" started-at="2020-07-09T20:42:06 CAT" finished-at="2020-07-09T20:48:32 CAT">
+      <class name="Testing.TestClass">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:Testing.TestClass@184f6be2]" name="OpenBrowser" is-config="true" duration-ms="69921" started-at="2020-07-09T20:42:06 CAT" finished-at="2020-07-09T20:43:16 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Testing.TestClass@184f6be2]" name="Login" duration-ms="7421" started-at="2020-07-09T20:43:16 CAT" finished-at="2020-07-09T20:43:24 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testing.TestClass@184f6be2]" name="getResult" is-config="true" duration-ms="7" started-at="2020-07-09T20:43:24 CAT" finished-at="2020-07-09T20:43:24 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=TestClass.Login()[pri:0, instance:Testing.TestClass@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AddToCart()[pri:1, instance:Testing.TestClass@184f6be2]" name="AddToCart" duration-ms="294483" started-at="2020-07-09T20:43:24 CAT" finished-at="2020-07-09T20:48:18 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testing.TestClass@184f6be2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-09T20:48:18 CAT" finished-at="2020-07-09T20:48:18 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=TestClass.AddToCart()[pri:1, instance:Testing.TestClass@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PaymentPage()[pri:2, instance:Testing.TestClass@184f6be2]" name="PaymentPage" duration-ms="9927" started-at="2020-07-09T20:48:18 CAT" finished-at="2020-07-09T20:48:28 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testing.TestClass@184f6be2]" name="getResult" is-config="true" duration-ms="4" started-at="2020-07-09T20:48:28 CAT" finished-at="2020-07-09T20:48:28 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PaymentPage status=SUCCESS method=TestClass.PaymentPage()[pri:2, instance:Testing.TestClass@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Testing.TestClass@184f6be2]" name="Logout" is-config="true" duration-ms="3688" started-at="2020-07-09T20:48:28 CAT" finished-at="2020-07-09T20:48:32 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Testing.TestClass -->
+    </test> <!-- TestClass -->
+  </suite> <!-- Suite -->
+</testng-results>
