@@ -37,6 +37,7 @@ WebDriver driver;
     By signOutbtn=By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[2]/a");
     By Pagetitle = By.xpath("/html/body/div/div[2]/div/div[3]/div/div/h1");
     By Weelcomtxt = By.xpath("/html/body/div/div[2]/div/div[3]/div/p");
+    By TotalAmount = By.xpath("/html/body/div/div[2]/div/div[3]/div/div/span/strong");
     
     public POM1(WebDriver driver) {
         this.driver=driver;
@@ -125,6 +126,9 @@ WebDriver driver;
     }
     public String getWelcoming() {
     	return driver.findElement(Weelcomtxt).getText();
+    }
+    public String getTotalAmount() {
+    	return driver.findElement(TotalAmount).getText();
     }
 	
 }

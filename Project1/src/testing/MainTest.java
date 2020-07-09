@@ -39,15 +39,20 @@ public class MainTest {
 	  
 	  page=new AddToCartPage(driver);
 	  
-	  Assert.assertTrue(page.validateAddToCart(driver));
-	  
-	  
-	  
+	 Assert.assertTrue(page.validateAddToCart(driver));
 	  
 	  
 	  //driver.close();
 	  
   }
   
+	/*
+	 * @Test public void ValidateAmountToPay() { POM001 login = new POM001(driver);
+	 * 
+	 * // String ActualResults =
+	 * 
+	 * 
+	 * }
+	 */
   
 }

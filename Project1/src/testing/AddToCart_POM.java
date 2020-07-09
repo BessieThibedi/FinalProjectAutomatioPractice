@@ -52,4 +52,36 @@ public class AddToCart_POM {
 		return false;
 		
 	}
+	
+	public boolean validatePrice(WebDriver driver, WebElement element, String Expectedtext) {
+		
+		String actualResult = element.getText();
+		if(actualResult.equalsIgnoreCase(Expectedtext)) {
+			System.out.println(actualResult);
+			System.out.println("Pass");
+			
+		}return false;
+		
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
